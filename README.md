@@ -16,7 +16,7 @@
 #### Scrolling Capture Config
 1. Press Ctrl+Shift+f (or whatever hotkey)
 2. Click anywhere - doesn't matter
-3. Copy my config
+3. Copy my config (make sure you're at the top of the page when running script since scroll to top is diabled here)
 ![picture alt](https://i1.lensdump.com/i/RFJNvi.png)
 
 ### Misc Config
