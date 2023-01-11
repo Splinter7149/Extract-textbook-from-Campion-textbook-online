@@ -6,7 +6,7 @@ The script uses ShareX to takes screenshots of each page and will auto-name in a
 start capturing the entire textbook.
 
 HOWEVER,
-Since ShareX Scrolling capture saves in `.png`s, file size per pages are quite large. A 400 page textbook can get to aroudnd 200 MB which is kinda large for a textbook. 
+Since ShareX Scrolling capture saves in `.png`s, file size per pages are quite large. A 400 page textbook can get to aroudnd 200 MB which is kinda large for a textbook. Considering most textbooks hang around the 20-80 MB range. However if you don't care about size too much (I don't) then it's fine.
 
 ### AutoHotKey V1.1
 1. Install autohotkey version 1.1 https://www.autohotkey.com/ - script isn't compatible with V2
