@@ -29,7 +29,7 @@ Sleep, 6200		; This is the time it takes to scroll (6.2 seconds) and capture one
 Send, {Esc}		; Remove the Save As file pop-up (we aren't using this one)
     Send, {Alt down}
 Sleep, 300		;(0.3 seconds)
-    Send, {Tab}
+    Send, {Tab} 
 Sleep, 300
     Send, {Alt up}		; Alt+Tab to switch from the book viewer website to the newly opened ShareX Image Scroller capture output page
 Sleep, 300
