@@ -1,6 +1,6 @@
 # Extract textbook from Campion textbook online
 
-### Litations of method
+### Limitations of method
 Since Campion has one of the best anti-tampers and ebook protections this general method of high quality screenshots is pretty much all that can be done.
 The script uses ShareX to takes screenshots of each page and will auto-name in ascending numerical order and is 100% automated, just press one button to 
 start capturing the entire textbook.
