@@ -49,7 +49,7 @@ Send, {Tab}{Tab}		; Switch to combine adjustments "Vertical" (the auto guess in 
     Send, ^a
     Send, 651
 Send, {Tab}{Tab}{Tab}{Enter}		; Tab to the "Upload/save depending on after capture settings" button
-    Send, %Var%		; Another Save File window should open like on [Line 27], this command inputs the variable on [Line 19], the page number
+    Send, %Var%		; Another Save File window should open like on [Line 29], this command inputs the variable on [Line 19], the page number
 Sleep, 200
     Send, {Enter}		; Save file (enter)
 Sleep, 400
@@ -60,7 +60,7 @@ return
 
 
 
-; This is the isolated script mentioned on [Line 37] to paste edge values and combine adjustments, can be used to speed up manual screenshotting
+; This is the isolated script mentioned on [Line 38] to paste edge values and combine adjustments, can be used to speed up manual screenshotting
 CapsLock::
 Send, ^a		; Click on Trim Edges - "Left"
 Send, 7		;Left
