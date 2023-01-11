@@ -38,7 +38,7 @@ Can be skipped if this is being configured for another website/progarm
 1. Get ublock Origin - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ 
 2. Go to book website - campion
 3. Follow steps to remove watermark
-![picture alt](https://i1.lensdump.com/i/RFdkXF.gif)
+![picture alt](https://i1.lensdump.com/i/RFdkXF.gif){: .align-left}
 
 4. Open in full width
-![RFdJ40.png](https://i2.lensdump.com/i/RFdJ40.png)
+![RFdJ40.png](https://i2.lensdump.com/i/RFdJ40.png){: .align-left}
