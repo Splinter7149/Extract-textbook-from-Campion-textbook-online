@@ -1,6 +1,10 @@
 # Extract-textbook-from-Campion-textbook-online
 
-## ShareX Config
+###AutoHotKey V1.1
+1. Install autohotkey version 1.1 https://www.autohotkey.com/ - script isn't compatible with V2
+2. Download startscreenshot.ahk 
+
+### ShareX Config
 1. Download ShareX https://getsharex.com/
 2. Go to hotkey settings 
 3. Add new
