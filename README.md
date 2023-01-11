@@ -1,4 +1,12 @@
-# Extract-textbook-from-Campion-textbook-online
+# Extract textbook from Campion textbook online
+
+### Litations of method
+Since Campion has one of the best anti-tampers and ebook protections this general method of high quality screenshots is pretty much all that can be done.
+The script uses ShareX to takes screenshots of each page and will auto-name in ascending numerical order and is 100% automated, just press one button to 
+start capturing the entire textbook.
+
+HOWEVER,
+Since ShareX Scrolling capture saves in `.png`s, file size per pages are quite large. A 400 page textbook can get to aroudnd 200 MB which is kinda large for a textbook. 
 
 ### AutoHotKey V1.1
 1. Install autohotkey version 1.1 https://www.autohotkey.com/ - script isn't compatible with V2
@@ -53,3 +61,17 @@ Can be skipped if this is being configured for another website/progarm
 ### **5. Set page transition to PAGE BY PAGE** [EXTREMELY IMPORTANT]
 
 Now you can start coniguring the AHK and running the script :P
+
+## Post Production
+There are a variety of different steps you can take after you have your folder of `png`s.
+You can convert them all to pdfs then merge. Keep in mind this will not reduce file size by much as the pdfs still contain complete images and not text.
+
+You could also convert to pdf, merge, convert to word, then convert BACK to pdf. Since Word uses vector text, the text would be infinitely scalable and in ultra high quality. It would also **drastically** reduce file size as the pdf now contains mostly text. 
+
+HOWEVER a major limitation of this method is that images, charts, and diagrams **may not** be converted properly and result in pages being unreadable.
+
+A workaround this is to manually go through the textbook and swap out "corrupted" pages with the converted pdf for that individual page using the Oragnise Pages feature of Adobe Acrobat. 
+
+1. If you are fine with a large file size then just stick with the pdf of images, run it through an OCR so you can copy and highlight the text in the pdf and you'll be good to go. A downside is the text isn't that sharp.
+
+2. If you are willing to put in effort and theoretically want to share the textbook with everyone else (I do not condone piracy or distribution of itellectual property) then converting to word and back would be the best option and result in the sharpest text. Swap out the corrupted pages then run the entire PDF through an OCR (google it) and that would be very good.
