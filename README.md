@@ -1,8 +1,8 @@
 # Extract-textbook-from-Campion-textbook-online
 
-###AutoHotKey V1.1
+### AutoHotKey V1.1
 1. Install autohotkey version 1.1 https://www.autohotkey.com/ - script isn't compatible with V2
-2. Download startscreenshot.ahk 
+2. Download startscreenshot.ahk - https://github.com/TinyWilll/Extract-textbook-from-Campion-textbook-online/releases/tag/final
 
 ### ShareX Config
 1. Download ShareX https://getsharex.com/
