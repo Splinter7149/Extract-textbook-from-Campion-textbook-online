@@ -50,4 +50,6 @@ Can be skipped if this is being configured for another website/progarm
 
 ![RFdJ40.png](https://i2.lensdump.com/i/RFdJ40.png)
 
+## **5. Set page transition to PAGE BY PAGE** [EXTREMELY IMPORTANT]
+
 Now you can start coniguring the AHK and running the script
