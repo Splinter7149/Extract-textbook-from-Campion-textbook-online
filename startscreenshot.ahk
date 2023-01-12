@@ -17,10 +17,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 Q::
 x := 1		; What page number it starts NAMINIG from, adjust for whatever page number you are starting/restarting from 
-Loop, 1{		; How many loops it goes for, lots of config required, set to 1 loop while testing, if it works well you can increase from there
+Loop, 3{		; How many loops it goes for, lots of config required, set to 1 loop while testing, if it works well you can increase from there
 Var := x++		; Increases page number each loop by 1
 Send, {Ctrl down}{Shift down}f{Ctrl up}{Shift up}	; Ctrl+Shift+F is the shortcut I set to trigger ShareX Scrolling Capture, you can set in Hotkey Settings in ShareX 
-Sleep, 400
+Sleep, 400		; Sleep in this script are to give the command enough time to excecute and for things to load in
 MouseClick, left, 1405, 800		; Clicks on the active window which the Scrolling Capture will be used on, can be anywhere on the page
 Sleep, 400
 MouseClick, left, 1405, 800		; Clicks on the Start Scrolling Capture button at the bottom, if an update changes this location then adjust coordinates
@@ -29,7 +29,7 @@ Sleep, 6200		; This is the time it takes to scroll (6.2 seconds) and capture one
 Send, {Esc}		; Remove the Save As file pop-up (we aren't using this one)
     Send, {Alt down}
 Sleep, 300		;(0.3 seconds)
-    Send, {Tab} 
+    Send, {Tab}
 Sleep, 300
     Send, {Alt up}		; Alt+Tab to switch from the book viewer website to the newly opened ShareX Image Scroller capture output page
 Sleep, 300
@@ -49,6 +49,7 @@ Send, {Tab}{Tab}		; Switch to combine adjustments "Vertical" (the auto guess in 
     Send, ^a
     Send, 651
 Send, {Tab}{Tab}{Tab}{Enter}		; Tab to the "Upload/save depending on after capture settings" button
+Sleep, 2000		
     Send, %Var%		; Another Save File window should open like on [Line 29], this command inputs the variable on [Line 19], the page number
 Sleep, 200
     Send, {Enter}		; Save file (enter)
