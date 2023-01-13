@@ -44,6 +44,7 @@ Since ShareX Scrolling capture saves in `.png`s, file size per pages are quite l
 10. Open and enter code `*{ scrollbar-width: none }` and save, this removes the scrollbar as it impacts the performance of the screen capture auto cropping
 11. Back to `about:proflies` and press restart normally
 12. This can be easily reverted by deleting all these newly created files and diabling step 4 here
+13. In Firefox settings > General > Enable `Always ask you where to save files` and for `What should Firefox do with other files?` tick `Save files`
 
 ### Website Config 
 Can be skipped if this is being configured for another website/progarm
